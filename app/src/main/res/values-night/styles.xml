@@ -2,9 +2,9 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary_Light</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_Light</item>
+        <item name="colorAccent">@color/colorAccent_Light</item>
 
         <item name="emptyview_style">@style/EmptyView.Default</item>
     </style>
@@ -20,20 +20,20 @@
     </style>
 
     <style name="EmptyView.TitleTextView.Default">
-        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary_Light</item>
         <item name="android:padding">30dp</item>
     </style>
 
     <style name="EmptyView.TitleTextView.Default.Override">
-        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent_Light</item>
     </style>
 
     <style name="EmptyView.Button.Default" parent="Widget.AppCompat.Button.Borderless">
-        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent_Light</item>
     </style>
 
     <style name="EmptyView.Button.Default.Override" parent="Widget.AppCompat.Button">
-        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorPrimaryDark_Light</item>
     </style>
 
 </resources>

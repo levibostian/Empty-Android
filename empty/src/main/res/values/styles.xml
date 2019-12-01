@@ -9,14 +9,14 @@
     <style name="EmptyView.TitleTextView" parent="android:Widget.TextView">
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/com_levibostian_empty_label_text_color</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:padding">@dimen/com_levibostian_emptyview_view_padding</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="EmptyView.MessageTextView" parent="android:Widget.TextView">
         <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/com_levibostian_empty_label_text_color</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:padding">@dimen/com_levibostian_emptyview_view_padding</item>
         <item name="android:gravity">center</item>
     </style>

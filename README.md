@@ -20,6 +20,7 @@ Configured with default settings that will work for most use cases, but customiz
 * Kotlin API
 * Lightweight. Zero dependencies. 
 * Setup with default values that should work for 95% of your use cases. Fully customizable for those other cases.
+* Default look *just works* for dark mode. 
 
 ## Installation
 
