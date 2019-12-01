@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="emptyview_style">@style/EmptyView.Default</item>
+    </style>
+
+    <style name="EmptyView.Default">
+        <item name="emptyview_titleTextView">@style/EmptyView.TitleTextView.Default</item>
+        <item name="emptyview_button">@style/EmptyView.Button.Default</item>
+    </style>
+
+    <style name="EmptyView.Default.Override">
+        <item name="emptyview_titleTextView">@style/EmptyView.TitleTextView.Default.Override</item>
+        <item name="emptyview_button">@style/EmptyView.Button.Default.Override</item>
+    </style>
+
+    <style name="EmptyView.TitleTextView.Default">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:padding">30dp</item>
+    </style>
+
+    <style name="EmptyView.TitleTextView.Default.Override">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="EmptyView.Button.Default" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="EmptyView.Button.Default.Override" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>

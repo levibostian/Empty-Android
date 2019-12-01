@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EmptyView">
+        <attr name="empty_title_text" format="string"/>
+        <attr name="empty_message_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="EmptyViewStyle">
+        <attr name="emptyview_titleTextView" format="reference"/>
+        <attr name="emptyview_messageTextView" format="reference"/>
+        <attr name="emptyview_button" format="reference"/>
+    </declare-styleable>
+    
+    <declare-styleable name="EmptyViewTheme">
+        <attr name="emptyview_style" format="reference"/>
+    </declare-styleable>
+</resources>
