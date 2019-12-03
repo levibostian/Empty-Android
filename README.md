@@ -158,7 +158,7 @@ Now, the custom style, `EmptyView.Custom`, at this time doesn't do anything. Why
 </style>
 ```
 
-### Style title `TextView`
+### Style message `TextView`
 
 Follow the instructions for *Style title `TextView`* except override `EmptyView.MessageTextView` instead of `EmptyView.TitleTextView` and use `<item name="emptyview_messageTextView">` instead of `<item name="emptyview_titleTextView">` as the `EmptyView` style custom attribute. 
 
