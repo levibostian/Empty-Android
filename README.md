@@ -22,6 +22,8 @@ Configured with default settings that will work for most use cases, but customiz
 * Setup with default values that should work for 95% of your use cases. Fully customizable for those other cases.
 * Default look *just works* for dark mode. 
 
+I recommend you check out 2 other libraries that work nicely with Empty: [PleaseHold](https://github.com/levibostian/PleaseHold-Android) and [Swapper](https://github.com/levibostian/Swapper-Android).
+
 ## Installation
 
 To install Empty, simply add the following line to your `build.gradle` file:
@@ -158,7 +160,7 @@ Now, the custom style, `EmptyView.Custom`, at this time doesn't do anything. Why
 </style>
 ```
 
-### Style title `TextView`
+### Style message `TextView`
 
 Follow the instructions for *Style title `TextView`* except override `EmptyView.MessageTextView` instead of `EmptyView.TitleTextView` and use `<item name="emptyview_messageTextView">` instead of `<item name="emptyview_titleTextView">` as the `EmptyView` style custom attribute. 
 
